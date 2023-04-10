@@ -1,0 +1,60 @@
+package com.test.user.article.dto.response;
+
+import java.util.List;
+
+public class UserResponseDto {
+    private Long id;
+    private String name;
+    private int age;
+    private List<ArticleResponseDto> articles;
+    private String email;
+    private String password;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public List<ArticleResponseDto> getArticles() {
+        return articles;
+    }
+
+    public void setArticles(List<ArticleResponseDto> articles) {
+        this.articles = articles;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
